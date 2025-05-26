@@ -1,0 +1,13 @@
+{
+	"$schema": "https://json.schemastore.org/package",
+	"dependencies": {
+		"esbuild": "^0.25.4",
+		"react": "^19.1.0",
+		"react-dom": "^19.1.0"
+	},
+	"devDependencies": {
+		"http-server": "^14.1.1",
+		"@types/react": "^19.1.2",
+		"@types/react-dom": "^19.1.2"
+	}
+}
