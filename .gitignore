@@ -4,6 +4,7 @@
 # unignore specific dotfiles
 !.gitignore
 !.editorconfig
+!.clang-format
 !/.github/
 
 # ignore specific files

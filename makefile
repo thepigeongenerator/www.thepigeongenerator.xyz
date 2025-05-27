@@ -19,6 +19,6 @@ out/index.html: web/index.html
 	cp -f $< $@
 
 # compiles / links source code
-out/script.js: web/src/*.tsx
+out/script.js: web/src/*.ts
 	@mkdir -p $(@D)
-	npx esbuild web/src/main.tsx $(ESFLAGS) --outfile=$@
+	npx esbuild web/src/main.ts $(ESFLAGS) --outfile=$@
